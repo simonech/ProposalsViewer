@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="proposalsApp">
+<head>
+  <meta charset="utf-8">
+  <title>Proposals</title>
+  <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <script src="libs/angular/angular.min.js"></script>
+  <script src="js/controllers.js"></script>
+</head>
+
+<body ng-controller="ProposalsCtrl">
+
+<select ng-model="filterTag" >
+  <option ng-repeat="tag in tags | orderBy:tag[0]" value="{{tag[0]}}">{{tag[0]}} - {{tag[1]}}</option>
+</select>
+
+
+
+  <ol>
+    <li ng-repeat="author in authors">
+      <span>{{author[0].firstname}} {{author[0].lastname}} - {{author[1]}}</span>
+    </li>
+  </ol>
+
+
+  <ol>
+    <li ng-repeat="proposal in proposals">
+      <span>{{proposal.title}}</span>
+      <p>{{proposal.author.firstname}} {{proposal.author.lastname}}</p>
+    </li>
+  </ol>
+
+</body>
+</html>

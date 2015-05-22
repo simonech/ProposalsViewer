@@ -2,10 +2,9 @@ var phonecatApp = angular.module('proposalsApp', []);
 
 phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
 
-    $scope.proposals = [];
     $http.get('data/proposals.json').success(function(data) {
       $scope.proposals = data.proposals;
-    });
+    
     
     var authors = [];
     $scope.proposals.forEach(function(obj){
@@ -30,5 +29,5 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
     });
 
     $scope.tags = tags
-
+    });
 });

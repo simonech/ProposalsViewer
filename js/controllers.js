@@ -3,9 +3,9 @@ var phonecatApp = angular.module('proposalsApp', []);
 phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
 
     $http.get('data/proposals.json').success(function(data) {
-      $scope.proposals = data.proposals;
-    
-    
+    $scope.proposals = data.proposal;
+
+
     var authors = [];
     $scope.proposals.forEach(function(obj){
         var matchingAuthor = $filter('filter')(authors, function(value, index){console.log(value[0]); return value[0].lastname==obj.author.lastname}, true);

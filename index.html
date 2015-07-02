@@ -11,23 +11,23 @@
 
 <body ng-controller="ProposalsCtrl">
 
-<select ng-model="filterTag" >
+<select ng-model="filterTag.tags" >
+  <option value="">-- choose tag --</option>
   <option ng-repeat="tag in tags | orderBy:tag[0]" value="{{tag[0]}}">{{tag[0]}} - {{tag[1]}}</option>
 </select>
 
+<select ng-model="filterTag.author.lastname" >
+  <option value="">-- choose author --</option>
+  <option ng-repeat="author in authors| orderBy:author[0].lastname" value="{{author[0].lastname}}">{{author[0].firstname}} {{author[0].lastname}} - {{author[1]}}</option>
+</select>
 
 
   <ol>
-    <li ng-repeat="author in authors">
-      <span>{{author[0].firstname}} {{author[0].lastname}} - {{author[1]}}</span>
-    </li>
-  </ol>
-
-
-  <ol>
-    <li ng-repeat="proposal in proposals">
-      <span>{{proposal.title}}</span>
+    <li ng-repeat="proposal in proposals | filter: filterTag: strict">
+      <h3>{{proposal.title}}</h3>
+      <p>{{proposal.description}}</p>
       <p>{{proposal.author.firstname}} {{proposal.author.lastname}}</p>
+      <p><span ng-repeat="tag in proposal.tags"> {{tag}}, </span></p>
     </li>
   </ol>
 

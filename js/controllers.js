@@ -20,9 +20,9 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
     var tags = [];
     $scope.proposals.forEach(function(obj){
         obj.tags.forEach(function (innerObj){
-            var matchingTag = $filter('filter')(tags, function(value, index){return value[0]==innerObj}, true);
+            var matchingTag = $filter('filter')(tags, function(value, index){return value[0].toUpperCase()==innerObj.toUpperCase()  }, true);
             if(matchingTag.length==0)
-                tags.push([innerObj,1]);
+                tags.push([innerObj.toUpperCase(),1]);
             else
                 matchingTag[0][1]++;
         })

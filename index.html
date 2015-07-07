@@ -21,10 +21,15 @@
   <option ng-repeat="author in authors| orderBy:author[0].lastname" value="{{author[0].lastname}}">{{author[0].firstname}} {{author[0].lastname}} - {{author[1]}}</option>
 </select>
 
+<select ng-model="sort" >
+  <option value="-averageVote">Average</option>
+  <option value="-count">Count</option>
+</select>
+
 
   <ol>
-    <li ng-repeat="proposal in proposals | filter: filterTag: strict">
-      <h3>{{proposal.title}}</h3>
+    <li ng-repeat="proposal in proposals | filter: filterTag: strict | orderBy: sort ">
+      <h3>{{proposal.title}} - {{proposal.averageVote | number: 2 }} ({{proposal.count}})</h3>
       <p>{{proposal.description}}</p>
       <p>{{proposal.author.firstname}} {{proposal.author.lastname}}</p>
       <p><span ng-repeat="tag in proposal.tags"> {{tag}}, </span></p>

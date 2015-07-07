@@ -1,14 +1,28 @@
 var phonecatApp = angular.module('proposalsApp', []);
 
-phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
+phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http,$q) {
 
-    $http.get('data/proposals.json').success(function(data) {
-    $scope.proposals = data.proposal;
+  var votes = $http.get('data/voting.json');
+  var proposals = $http.get('data/proposals.json');
+
+ $q.all([votes,proposals]).then(function (data){
+   $scope.votes = data[0].data;
+   $scope.proposals = data[1].data.proposal;
+
+   $scope.proposals.forEach(function(obj){
+     obj.count=0;
+     obj.averageVote=0;
+     var matchingVote = $filter('filter')($scope.votes, function(value, index){return value.title==obj.title}, true);
+     if(matchingVote.length==1){
+       obj.count=matchingVote[0].count;
+       obj.averageVote=matchingVote[0].averageVote;
+     }
+   });
 
 
     var authors = [];
     $scope.proposals.forEach(function(obj){
-        var matchingAuthor = $filter('filter')(authors, function(value, index){console.log(value[0]); return value[0].lastname==obj.author.lastname}, true);
+        var matchingAuthor = $filter('filter')(authors, function(value, index){return value[0].lastname==obj.author.lastname}, true);
         if(matchingAuthor.length==0)
             authors.push([obj.author,1]);
         else
@@ -29,5 +43,8 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http) {
     });
 
     $scope.tags = tags
-    });
+ });
+
+
+
 });

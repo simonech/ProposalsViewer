@@ -14,7 +14,10 @@
             "twitter": "@vflorusso",
             "bio": "I am a Senior Program Manager in Microsoft working on Cloud Tecnologies since 4 years. My curent job is being a Tech Advisor and Cloud Architect for cloud workloads enablers and worldwide video projects on Microsoft Azure. I spoke at IBC on the video workflow we used for last Fifa World Cup live streaming. Working and enjoying technology since I was a kid.",
             "avatarUrl": "https://avatars1.githubusercontent.com/u/2421741?v=3&s=460"
-        }
+        },
+        "tracks": [
+          "Cloud"
+        ]
     }, {
         "title": "Self-improving software",
         "description": "more details at http://glebbahmutov.com/blog/tags/modular-development/",
@@ -32,7 +35,10 @@
             "blog": "http://glebbahmutov.com/blog/",
             "bio": "Gleb Bahmutov is JavaScript ninja, image processing expert and software quality fanatic. After receiving a PhD in computer science from Purdue University, Gleb worked on laser scanners, 3D reconstruction, and panorama-based virtual tours at EveryScape. Later Gleb switched to writing browser data visualization software at MathWorks. After a year, Gleb went back to the startup environment and developed software quality analysis tools at uTest (now Applause). Today Gleb is developing real-time financial analysis tools at Kensho. He blogs about software development topics at http://glebbahmutov.com/blog/ and links his projects at http://glebbahmutov.com/. You can follow him and his work @bahmutov",
             "avatarUrl": "https://raw.githubusercontent.com/bahmutov/bahmutov.github.io/master/gleb-alternative.jpg"
-        }
+        },
+        "tracks": [
+          "JavaScript"
+        ]
     }, {
         "title": "What did we just test?",
         "description": "Code coverage tools are extremely useful, yet they show what the final coverage looks like. In the most development setups, the individual commits are cherry picked from the development to the staging to the production branch. The final coverage might be very different after some updates are transferred and merged. I will show two separate tools that enhance the code coverage computed from unit tests. First, there is a code coverage proxy `was-tested` that I wrote. It collects code coverage information during end 2 end feature testing, usually performed by the QA people. This is extremely valuable, because most of the front-end code is extremely time consuming to test using automated tests. Second, I wrote tested-commits tool that takes any code coverage information and splits it back to coverage by an individual commit. Thus we can track how much we have tested each feature / bug fix that merged and moved around the branches. Taken together, we can reliably speak about each feature tested at 90% before being deployed to production, even if the testing is manual.",
@@ -71,7 +77,7 @@
         "description": "JavaScript is an interesting language. It can mimic almost any style you want: procedural, object-oriented, functional, etc. In this presentation I will take a simple problem and will solve it using different approaches. With each step we will see the power of each approach to take the complexity away, while still being the JavaScript we all love to hate. The following topics will be shown: procedural (imperative) style, object-oriented, functional, point-free, lazy evaluation, immutable data, async processing using promises, async processing using event emitters, advanced topics: transducers and streams, reactive programming using event streams. Any team looking to improve its code should attend this presentation. Making a single leap from object-oriented approach to reactive programming is too difficult, but you can make it step by step.",
         "tags": [
             "JavaScript",
-            "Functional",
+            "Functional Programming",
             "Reactive",
             "Learning",
             "Training"
@@ -151,7 +157,7 @@
         "title": "Replacing built-in Node require",
         "description": "The Node `require` method that loads source files, compiles and caches them is ok, but could be made a lot more powerful. Luckily one can replace the built-in `require` in user space without much effort. In this presentation I will show how to: 1 - use your own `require` version with extra features, like cache busting and passing extra variables or loaded code transformation. 2 - speed up application startup by 25% with a single require include to avoid path hunting.",
         "tags": [
-            "NodeJS"
+            "Node.JS"
         ],
         "author": {
             "firstname": "Gleb",
@@ -167,7 +173,7 @@
         "tags": [
             "JavaScript",
             "Documenting",
-            "Unit tests"
+            "Unit testing"
         ],
         "author": {
             "firstname": "Gleb",
@@ -230,7 +236,7 @@
         "title": "Integrate Office 365 inside a MVC application",
         "description": "In this session we will demonstrate how easy it is to integrate inside an existing/new asp.net MVC application an Office 365 environment with the help of the Office 365 API, after that we will show through variuos code examples how easy is to interact with the users calendar, email and files. The session will also provided hints on how to do the same operations in a mobile application.",
         "tags": [
-            "aspnet mvc",
+            "ASP.NET MVC",
             "c#",
             "office365",
             "client dev"
@@ -247,7 +253,7 @@
         "title": "Meet the new kid on the block - Microsoft's new ASP.NET is going to rock your world",
         "description": "Imagine if you could write an ASP.NET application in notepad, compile it and run it on a Mac OS X. Imagine if you could mix and match WebForms, MVC and Web API within the project. How would you feel if you could create a faster, leaner and more memory efficient ASP.NET application that has been freed from the shackles of Microsoft and the .NET framework and all you need is your coding skills, a couple of NuGet packages and your imagination? If all these sound like a dream come true, then come join me for an introduction to Microsoft’s ASP.NET vNext and learn how to get started with the 'new kid on the block'",
         "tags": [
-            "aspnet5",
+            "ASP.NET 5",
             "c#",
             "node.js",
             "open source"
@@ -418,7 +424,7 @@
         "description": "OWIN has a concept of middleware. So does ASP.NET 5. Why? What is middleware? How does it help in typical web applications? In this talk we will dive into the code, write some middleware and show how middleware helps you handle cross-cutting concerns in an isolated and re-usable way. I'll compare and contrast the OWIN and ASP.NET 5 middleware concepts and talk about where each is appropriate.",
         "tags": [
             "OWIN",
-            "ASPNET vNext",
+            "ASP.NET vNext",
             "web",
             "micro services"
         ],
@@ -531,7 +537,7 @@
         "title": "ASP.NET 5: How to Get Your Cheese Back",
         "description": "ASP.NET 5 is the new kid on the block, and it's here with a lot of new, unfamiliar features and concepts. As a developer, it's not yet clear why to start developing on ASP.NET 5 or, more importantly, why to move an existing, healthy project to it. I hear a lot of Questions like: 'wow, it wasn't like that before, why has it changed?' 'I'm not familiar with these concepts, so should I stick with [the thing that I am using now]?'. In this talk, I'll cover the reasons why you should start considering ASP.NET 5 by boiling it down to the tried-and-tested format: 10 top features. We'll cover everything from new project structures to unified MVC and Web API frameworks, complete with samples and clear explanations of how these things are going to affect the way you code and the way you build projects. Along the way, we'll cover other little gems like the new Configuration framework. By the end of the talk, the advantages - and potential pitfalls - of using ASP.NET 5 in terms of both runtime and development process should be crystal clear, and you'll be able to work out when's the right time to start using the latest shiny Microsoft bits.",
         "tags": [
-            "aspnet-5",
+            "ASP.NET 5",
             "http",
             "web",
             "dotnet"
@@ -548,7 +554,7 @@
         "title": "Going Further with ASP.NET 5",
         "description": "After getting to know ASP.NET 5, and seeing where it’s different from previous versions, it's time to master the next development framework! If you want to go a little further and look under the hood of ASP.NET 5, this session will be for you. In this talk, I will cover the more advanced features shipping in as part of the new ASP.NET, like language extensibility, hosting, and in-memory end-to-end testing with samples. We’ll also have a chance to see some end-to-end project examples, demonstrating how your workflows and coding might change, and some corner case issues and gotchas you might hit. Generally, this talk will broaden your understanding  of what will be possible with ASP.NET 5, and you’ll know where to look if you want to get one step closer to mastery.",
         "tags": [
-            "aspnet-5",
+            "ASP.NET 5",
             "http",
             "web",
             "dotnet"
@@ -568,7 +574,7 @@
             "javascript",
             "facebook",
             "frontend",
-            "nodejs"
+            "node.js"
         ],
         "author": {
             "firstname": "Emanuele",
@@ -632,7 +638,7 @@
             "visual studio",
             "azure",
             "microsoft",
-            "web apps",
+            "web app",
             "monaco"
         ],
         "author": {
@@ -730,7 +736,7 @@
             "ionic framework",
             "mobile development",
             "hybrid apps",
-            "angular js"
+            "angularjs"
         ],
         "author": {
             "firstname": "Alessio",
@@ -780,7 +786,7 @@
         "description": "It might be a surprise for some of you, but JavaScript can be regarded as a functional programming language. Why don't we use more functional programming concepts in our JavaScript code, then? In this talk you will learn how to start including some of them in your applications and when they might be particularly beneficial. You will also get familiar with libraries that extend the functional capabilities of JavaScript (lodash and FunctionalJS) and the upcoming ES6 features that make JavaScript even more functional.",
         "tags": [
             "JavaScript",
-            "FunctionalProgramming",
+            "Functional Programming",
             "ES6",
             "underscore",
             "loadash"
@@ -816,7 +822,7 @@
         "tags": [
             "JavaScript",
             "Testing",
-            "UnitTests",
+            "Unit Testing",
             "Karma",
             "Jasmine",
             "PhantomJS",
@@ -909,7 +915,7 @@
             "JavaScript",
             "Clojure",
             "ClojureScript",
-            "FunctionalProgramming",
+            "Functional Programming",
             "LISP"
         ],
         "author": {
@@ -977,7 +983,7 @@
         "description": "Asp.net 5 is not just a new release of the famous web framework but a real turning point which every developer should take care of. While cross-platform and open-source looks like just buzzwords, they are really impacting the architecture of web applications and security is certainly a fundamental part. In this session, after a brief overview of the Asp.net 5 architecture, we will see which options we have to protect our application and web apis.",
         "tags": [
             "Security",
-            "AspNet5",
+            "ASP.NET 5",
             "authentication",
             "authorization",
             "architecture"
@@ -1158,8 +1164,8 @@
         }
     }, {
         "title": "Not only sexy, learn DNX the tdd style",
-        "description": "Most people will focus on the new web tricks that aspnet 5 will allow you, but one interesting thing is how you can build your own tools in a very simple way with DNX or do real very productive tdd/bdd sessions up front. In this full time demo session, I'll show you how cool it is with the new plateform to create specifications and tests that matter, how to work with continuous tests and build software along living documentation",
-        "tags": ["AspNet5", "BDD", "TDD","ContinuousTesting","Documentation"],
+        "description": "Most people will focus on the new web tricks that ASP.NET 5 will allow you, but one interesting thing is how you can build your own tools in a very simple way with DNX or do real very productive tdd/bdd sessions up front. In this full time demo session, I'll show you how cool it is with the new plateform to create specifications and tests that matter, how to work with continuous tests and build software along living documentation",
+        "tags": ["ASP.NET 5", "BDD", "TDD","ContinuousTesting","Documentation"],
         "author": {
             "firstname": "Rui",
             "lastname": "Carvalho",
@@ -1195,7 +1201,7 @@
     }, {
         "title": "TypeScript: the Javascript's developer best friend!",
         "description": "TypeScript it's COOL! You can use some of the features the future iterations of Javascript will have right now and it can save us lots of time dealing with 'stupid' runtime errors, misstypings and all those kind of funny stuff. Let's give a look at the language and what you can do with it, and save us from some of the pitfalls and the 'unexpected' (for a strongly typed language) behaviours you may face.",
-        "tags": ["typescript", "Javascript", "ES6", "ES6"],
+        "tags": ["typescript", "Javascript", "ES6"],
         "author": {
             "firstname": "Alessandro",
             "lastname": "Giorgetti",

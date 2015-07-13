@@ -41,8 +41,22 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http,$q) {
                 matchingTag[0][1]++;
         })
     });
+    $scope.tags = tags;
 
-    $scope.tags = tags
+    var tracks = [];
+    $scope.proposals.forEach(function(obj){
+        if(obj.tracks){
+          obj.tracks.forEach(function (innerObj){
+              var matchingTrack = $filter('filter')(tracks, function(value, index){return value[0]==innerObj }, true);
+              if(matchingTrack.length==0)
+                  tracks.push([innerObj,1]);
+              else
+                  matchingTrack[0][1]++;
+          })
+        }
+    });
+    $scope.tracks = tracks;
+
  });
 
 

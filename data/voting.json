@@ -1,146 +1,155 @@
 [{
-    "_id" : "55952eab9733873dbc46b75e",
-    "averageVote" : 9.333333333333334,
-    "count" : 3,
-    "title" : "Seriously, you should start testing that JavaScript code",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
-},
-{
-    "_id" : "55952eab9733873dbc46b771",
-    "averageVote" : 9.25,
-    "count" : 4,
-    "title" : "DDD, CQRS and testing with ASP.Net MVC",
-    "authorName" : "Andy",
-    "authorLastName" : "Butland",
-    "authorTwitter" : "@andybutland"
-},
-{
     "_id" : "55952eab9733873dbc46b73a",
-    "averageVote" : 9.166666666666666,
-    "count" : 6,
+    "averageVote" : 9.375,
+    "count" : 8,
     "title" : "You Can Have it Both Ways: Using Web Components in a React UI",
     "authorName" : "Massimiliano",
     "authorLastName" : "Mantione",
     "authorTwitter" : "@M_a_s_s_1"
 },
 {
-    "_id" : "55952eab9733873dbc46b751",
-    "averageVote" : 9.0,
-    "count" : 6,
-    "title" : "Going Further with ASP.NET 5",
-    "authorName" : "Tugberk",
-    "authorLastName" : "Ugurlu",
-    "authorTwitter" : "@tourismgeek"
+    "_id" : "55952eab9733873dbc46b771",
+    "averageVote" : 9.363636363636363,
+    "count" : 11,
+    "title" : "DDD, CQRS and testing with ASP.Net MVC",
+    "authorName" : "Andy",
+    "authorLastName" : "Butland",
+    "authorTwitter" : "@andybutland"
 },
 {
-    "_id" : "55952eab9733873dbc46b75d",
-    "averageVote" : 8.8,
-    "count" : 5,
-    "title" : "FutureJS - ES6, ES7 and beyond",
+    "_id" : "55952eab9733873dbc46b75e",
+    "averageVote" : 9.142857142857142,
+    "count" : 7,
+    "title" : "Seriously, you should start testing that JavaScript code",
     "authorName" : "Kuba",
     "authorLastName" : "Walinski",
     "authorTwitter" : "@kubawalinski"
 },
 {
     "_id" : "55952eab9733873dbc46b760",
-    "averageVote" : 8.75,
-    "count" : 4,
+    "averageVote" : 9.11111111111111,
+    "count" : 9,
     "title" : "OO considered harmful",
     "authorName" : "Kuba",
     "authorLastName" : "Walinski",
     "authorTwitter" : "@kubawalinski"
 },
 {
-    "_id" : "55952eab9733873dbc46b73d",
-    "averageVote" : 8.727272727272727,
-    "count" : 11,
-    "title" : "Create a single page web application with AngularJS",
-    "authorName" : "Antonio",
-    "authorLastName" : "Di Motta",
-    "authorTwitter" : "@dimotta"
-},
-{
-    "_id" : "55952eab9733873dbc46b765",
-    "averageVote" : 8.4,
-    "count" : 5,
-    "title" : "OData v4: the easy way of exposing and querying structured data",
-    "authorName" : "Raffaele",
-    "authorLastName" : "Rialdi",
-    "authorTwitter" : "@raffaeler"
-},
-{
-    "_id" : "55952eab9733873dbc46b74c",
-    "averageVote" : 8.333333333333334,
-    "count" : 6,
-    "title" : "ASP.NET 5: How to Get Your Cheese Back",
-    "authorName" : "Tugberk",
-    "authorLastName" : "Ugurlu",
-    "authorTwitter" : "@tourismgeek"
-},
-{
-    "_id" : "55952eab9733873dbc46b736",
-    "averageVote" : 8.25,
-    "count" : 4,
-    "title" : "What did we just test?",
-    "authorName" : "Gleb",
-    "authorLastName" : "Bahmutov",
-    "authorTwitter" : "@bahmutov"
-},
-{
-    "_id" : "55952eab9733873dbc46b773",
-    "averageVote" : 8.2,
-    "count" : 5,
-    "title" : "Experimenting with ServiceWorker",
-    "authorName" : "Sandro",
-    "authorLastName" : "Paganotti",
-    "authorTwitter" : "@sandropaganotti"
-},
-{
-    "_id" : "55952eab9733873dbc46b74a",
-    "averageVote" : 8.2,
-    "count" : 5,
-    "title" : "Advanced Nancy",
-    "authorName" : "Christian",
-    "authorLastName" : "Horsdal",
-    "authorTwitter" : "@chr_horsdal"
-},
-{
     "_id" : "55952eab9733873dbc46b763",
-    "averageVote" : 8.11111111111111,
-    "count" : 9,
+    "averageVote" : 9.0,
+    "count" : 19,
     "title" : "Aurelia - welcome to the future of JavaScript frameworks",
     "authorName" : "Kuba",
     "authorLastName" : "Walinski",
     "authorTwitter" : "@kubawalinski"
 },
 {
-    "_id" : "55952eab9733873dbc46b757",
-    "averageVote" : 8.0,
-    "count" : 6,
-    "title" : "Rapid Mobile Development with Ionic framework",
-    "authorName" : "Alessio",
-    "authorLastName" : "Delmonti",
-    "authorTwitter" : "@alexintosh"
+    "_id" : "55952eab9733873dbc46b751",
+    "averageVote" : 9.0,
+    "count" : 9,
+    "title" : "Going Further with ASP.NET 5",
+    "authorName" : "Tugberk",
+    "authorLastName" : "Ugurlu",
+    "authorTwitter" : "@tourismgeek"
+},
+{
+    "_id" : "55952eab9733873dbc46b73d",
+    "averageVote" : 8.857142857142858,
+    "count" : 14,
+    "title" : "Create a single page web application with AngularJS",
+    "authorName" : "Antonio",
+    "authorLastName" : "Di Motta",
+    "authorTwitter" : "@dimotta"
+},
+{
+    "_id" : "55952eab9733873dbc46b75d",
+    "averageVote" : 8.571428571428571,
+    "count" : 7,
+    "title" : "FutureJS - ES6, ES7 and beyond",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
+},
+{
+    "_id" : "55952eab9733873dbc46b74a",
+    "averageVote" : 8.571428571428571,
+    "count" : 7,
+    "title" : "Advanced Nancy",
+    "authorName" : "Christian",
+    "authorLastName" : "Horsdal",
+    "authorTwitter" : "@chr_horsdal"
+},
+{
+    "_id" : "55952eab9733873dbc46b75f",
+    "averageVote" : 8.5,
+    "count" : 12,
+    "title" : "How NOT to design your API",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
+},
+{
+    "_id" : "55952eab9733873dbc46b773",
+    "averageVote" : 8.428571428571429,
+    "count" : 7,
+    "title" : "Experimenting with ServiceWorker",
+    "authorName" : "Sandro",
+    "authorLastName" : "Paganotti",
+    "authorTwitter" : "@sandropaganotti"
+},
+{
+    "_id" : "55952eab9733873dbc46b74c",
+    "averageVote" : 8.428571428571429,
+    "count" : 7,
+    "title" : "ASP.NET 5: How to Get Your Cheese Back",
+    "authorName" : "Tugberk",
+    "authorLastName" : "Ugurlu",
+    "authorTwitter" : "@tourismgeek"
+},
+{
+    "_id" : "55952eab9733873dbc46b765",
+    "averageVote" : 8.428571428571429,
+    "count" : 7,
+    "title" : "OData v4: the easy way of exposing and querying structured data",
+    "authorName" : "Raffaele",
+    "authorLastName" : "Rialdi",
+    "authorTwitter" : "@raffaeler"
+},
+{
+    "_id" : "55952eab9733873dbc46b762",
+    "averageVote" : 8.4,
+    "count" : 10,
+    "title" : "Getting started with ClojureScript",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
 },
 {
     "_id" : "55952eab9733873dbc46b778",
     "averageVote" : 8.0,
-    "count" : 12,
+    "count" : 16,
     "title" : "TypeScript: the Javascript's developer best friend!",
     "authorName" : "Alessandro",
     "authorLastName" : "Giorgetti",
     "authorTwitter" : "@A_Giorgetti"
 },
 {
-    "_id" : "55952eab9733873dbc46b74e",
+    "_id" : "55952eab9733873dbc46b736",
     "averageVote" : 8.0,
-    "count" : 2,
-    "title" : "Layers Considered Harmful",
-    "authorName" : "Christian",
-    "authorLastName" : "Horsdal",
-    "authorTwitter" : "@chr_horsdal"
+    "count" : 5,
+    "title" : "What did we just test?",
+    "authorName" : "Gleb",
+    "authorLastName" : "Bahmutov",
+    "authorTwitter" : "@bahmutov"
+},
+{
+    "_id" : "55952eab9733873dbc46b737",
+    "averageVote" : 8.0,
+    "count" : 7,
+    "title" : "Improving Angular application performance",
+    "authorName" : "Gleb",
+    "authorLastName" : "Bahmutov",
+    "authorTwitter" : "@bahmutov"
 },
 {
     "_id" : "55952eab9733873dbc46b72f",
@@ -152,94 +161,193 @@
     "authorTwitter" : "@bahmutov"
 },
 {
-    "_id" : "55952eab9733873dbc46b767",
-    "averageVote" : 7.833333333333333,
-    "count" : 6,
-    "title" : "Getting Into the Zero Downtime Deployment World with HTTP Applications",
-    "authorName" : "Tugberk",
-    "authorLastName" : "Ugurlu",
-    "authorTwitter" : "@tourismgeek"
-},
-{
-    "_id" : "55952eab9733873dbc46b75c",
-    "averageVote" : 7.8,
-    "count" : 5,
-    "title" : "Fun with Functional JavaScript",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
-},
-{
-    "_id" : "55952eab9733873dbc46b74d",
-    "averageVote" : 7.666666666666667,
-    "count" : 6,
-    "title" : "React.js in a real world application",
-    "authorName" : "Emanuele",
-    "authorLastName" : "DelBono",
-    "authorTwitter" : "@emadb"
-},
-{
     "_id" : "55952eab9733873dbc46b734",
-    "averageVote" : 7.666666666666667,
-    "count" : 3,
+    "averageVote" : 8.0,
+    "count" : 5,
     "title" : "Remove the boilerplate",
     "authorName" : "Gleb",
     "authorLastName" : "Bahmutov",
     "authorTwitter" : "@bahmutov"
 },
 {
-    "_id" : "55952eab9733873dbc46b75f",
-    "averageVote" : 7.6,
-    "count" : 5,
-    "title" : "How NOT to design your API",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
+    "_id" : "55952eab9733873dbc46b750",
+    "averageVote" : 8.0,
+    "count" : 7,
+    "title" : "Gulp",
+    "authorName" : "Kris",
+    "authorLastName" : "van der Mast",
+    "authorTwitter" : "@KvdM"
 },
 {
-    "_id" : "55952eab9733873dbc46b762",
-    "averageVote" : 7.6,
-    "count" : 5,
-    "title" : "Getting started with ClojureScript",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
+    "_id" : "55952eab9733873dbc46b74d",
+    "averageVote" : 7.888888888888889,
+    "count" : 9,
+    "title" : "React.js in a real world application",
+    "authorName" : "Emanuele",
+    "authorLastName" : "DelBono",
+    "authorTwitter" : "@emadb"
 },
 {
-    "_id" : "55952eab9733873dbc46b73e",
-    "averageVote" : 7.538461538461538,
-    "count" : 13,
-    "title" : "Visual Studio Tips & Tricks: Becoming a Jedi Master",
-    "authorName" : "Christos",
-    "authorLastName" : "Matskas",
-    "authorTwitter" : "@christosmatskas"
+    "_id" : "55952eab9733873dbc46b75a",
+    "averageVote" : 7.875,
+    "count" : 8,
+    "title" : "I have inherited a large, complex, messy, sh*tty CSS codebase. And now?",
+    "authorName" : "Cristiano",
+    "authorLastName" : "Rastelli",
+    "authorTwitter" : "@areaweb"
 },
 {
     "_id" : "55952eab9733873dbc46b730",
-    "averageVote" : 7.5,
-    "count" : 6,
+    "averageVote" : 7.846153846153846,
+    "count" : 13,
     "title" : "Promises, promises, promises",
     "authorName" : "Gleb",
     "authorLastName" : "Bahmutov",
     "authorTwitter" : "@bahmutov"
 },
 {
-    "_id" : "55952eab9733873dbc46b733",
-    "averageVote" : 7.428571428571429,
-    "count" : 14,
-    "title" : "Capture, record, clip, embed and play, search: video from newbie to ninja",
-    "authorName" : "Vito Flavio",
-    "authorLastName" : "Lorusso",
-    "authorTwitter" : "@vflorusso"
+    "_id" : "55952eab9733873dbc46b738",
+    "averageVote" : 7.8,
+    "count" : 5,
+    "title" : "Transducers FTW!",
+    "authorName" : "Massimiliano",
+    "authorLastName" : "Mantione",
+    "authorTwitter" : "@M_a_s_s_1"
+},
+{
+    "_id" : "55952eab9733873dbc46b74e",
+    "averageVote" : 7.8,
+    "count" : 5,
+    "title" : "Layers Considered Harmful",
+    "authorName" : "Christian",
+    "authorLastName" : "Horsdal",
+    "authorTwitter" : "@chr_horsdal"
+},
+{
+    "_id" : "55952eab9733873dbc46b767",
+    "averageVote" : 7.777777777777778,
+    "count" : 9,
+    "title" : "Getting Into the Zero Downtime Deployment World with HTTP Applications",
+    "authorName" : "Tugberk",
+    "authorLastName" : "Ugurlu",
+    "authorTwitter" : "@tourismgeek"
+},
+{
+    "_id" : "55952eab9733873dbc46b74f",
+    "averageVote" : 7.75,
+    "count" : 4,
+    "title" : "Extending RWD with Lightweight Client-side Device Detection",
+    "authorName" : "Dino",
+    "authorLastName" : "Esposito",
+    "authorTwitter" : "@despos"
+},
+{
+    "_id" : "55952eab9733873dbc46b761",
+    "averageVote" : 7.714285714285714,
+    "count" : 7,
+    "title" : "Introduction to hybrid mobile apps with the Ionic Framework",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
+},
+{
+    "_id" : "55952eab9733873dbc46b777",
+    "averageVote" : 7.7,
+    "count" : 10,
+    "title" : "TypeScript, Visual Studio, NPM, Gulp... it's getting crowded here! (some tips to make your life easier...",
+    "authorName" : "Alessandro",
+    "authorLastName" : "Giorgetti",
+    "authorTwitter" : "@A_Giorgetti"
+},
+{
+    "_id" : "55952eab9733873dbc46b76c",
+    "averageVote" : 7.666666666666667,
+    "count" : 6,
+    "title" : "Get more than a cache back! The Microsoft Azure (Redis Cache",
+    "authorName" : "Maarten",
+    "authorLastName" : "Balliauw",
+    "authorTwitter" : "@maartenballiauw"
+},
+{
+    "_id" : "55952eab9733873dbc46b73e",
+    "averageVote" : 7.666666666666667,
+    "count" : 15,
+    "title" : "Visual Studio Tips & Tricks: Becoming a Jedi Master",
+    "authorName" : "Christos",
+    "authorLastName" : "Matskas",
+    "authorTwitter" : "@christosmatskas"
+},
+{
+    "_id" : "55952eab9733873dbc46b746",
+    "averageVote" : 7.6,
+    "count" : 10,
+    "title" : "Why Middleware?",
+    "authorName" : "Christian",
+    "authorLastName" : "Horsdal",
+    "authorTwitter" : "@chr_horsdal"
+},
+{
+    "_id" : "55952eab9733873dbc46b764",
+    "averageVote" : 7.461538461538462,
+    "count" : 13,
+    "title" : "Getting started with Meteor",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
 },
 {
     "_id" : "55952eab9733873dbc46b755",
-    "averageVote" : 7.25,
-    "count" : 8,
+    "averageVote" : 7.428571428571429,
+    "count" : 14,
     "title" : "ASP.NET 5",
     "authorName" : "Kris",
     "authorLastName" : "van der Mast",
     "authorTwitter" : "@KvdM"
+},
+{
+    "_id" : "55952eab9733873dbc46b747",
+    "averageVote" : 7.4,
+    "count" : 5,
+    "title" : "Putting The CD In The CI With The GIT , The ALM And Other Acronyms That Don’t Make Sense When Putting Them All In One Phrase",
+    "authorName" : "Mike",
+    "authorLastName" : "Martin",
+    "authorTwitter" : "@techmike2kx"
+},
+{
+    "_id" : "55952eab9733873dbc46b73f",
+    "averageVote" : 7.363636363636363,
+    "count" : 11,
+    "title" : "Build modern JavaScript web applications",
+    "authorName" : "Roberto",
+    "authorLastName" : "Messora",
+    "authorTwitter" : "@robymes"
+},
+{
+    "_id" : "55952eab9733873dbc46b75c",
+    "averageVote" : 7.333333333333333,
+    "count" : 9,
+    "title" : "Fun with Functional JavaScript",
+    "authorName" : "Kuba",
+    "authorLastName" : "Walinski",
+    "authorTwitter" : "@kubawalinski"
+},
+{
+    "_id" : "55952eab9733873dbc46b757",
+    "averageVote" : 7.3,
+    "count" : 10,
+    "title" : "Rapid Mobile Development with Ionic framework",
+    "authorName" : "Alessio",
+    "authorLastName" : "Delmonti",
+    "authorTwitter" : "@alexintosh"
+},
+{
+    "_id" : "55952eab9733873dbc46b733",
+    "averageVote" : 7.266666666666667,
+    "count" : 15,
+    "title" : "Capture, record, clip, embed and play, search: video from newbie to ninja",
+    "authorName" : "Vito Flavio",
+    "authorLastName" : "Lorusso",
+    "authorTwitter" : "@vflorusso"
 },
 {
     "_id" : "55952eab9733873dbc46b73b",
@@ -251,49 +359,40 @@
     "authorTwitter" : "@itsonlyGianca"
 },
 {
-    "_id" : "55952eab9733873dbc46b738",
-    "averageVote" : 7.25,
-    "count" : 4,
-    "title" : "Transducers FTW!",
-    "authorName" : "Massimiliano",
-    "authorLastName" : "Mantione",
-    "authorTwitter" : "@M_a_s_s_1"
-},
-{
-    "_id" : "55952eab9733873dbc46b764",
-    "averageVote" : 7.222222222222222,
-    "count" : 9,
-    "title" : "Getting started with Meteor",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
-},
-{
-    "_id" : "55952eab9733873dbc46b76c",
+    "_id" : "55952eab9733873dbc46b772",
     "averageVote" : 7.2,
     "count" : 5,
-    "title" : "Get more than a cache back! The Microsoft Azure (Redis Cache",
-    "authorName" : "Maarten",
-    "authorLastName" : "Balliauw",
-    "authorTwitter" : "@maartenballiauw"
+    "title" : "Feedback loops",
+    "authorName" : "Rui",
+    "authorLastName" : "Carvalho",
+    "authorTwitter" : "@rhwy"
 },
 {
     "_id" : "55952eab9733873dbc46b766",
-    "averageVote" : 7.2,
-    "count" : 10,
+    "averageVote" : 7.181818181818182,
+    "count" : 11,
     "title" : "Asp.net 5 security 101",
     "authorName" : "Raffaele",
     "authorLastName" : "Rialdi",
     "authorTwitter" : "@raffaeler"
 },
 {
-    "_id" : "55952eab9733873dbc46b777",
+    "_id" : "55952eab9733873dbc46b735",
+    "averageVote" : 7.142857142857143,
+    "count" : 7,
+    "title" : "Explain with examples, without writing any",
+    "authorName" : "Gleb",
+    "authorLastName" : "Bahmutov",
+    "authorTwitter" : "@bahmutov"
+},
+{
+    "_id" : "55952eab9733873dbc46b770",
     "averageVote" : 7.125,
     "count" : 8,
-    "title" : "TypeScript, Visual Studio, NPM, Gulp... it's getting crowded here! (some tips to make your life easier...",
-    "authorName" : "Alessandro",
-    "authorLastName" : "Giorgetti",
-    "authorTwitter" : "@A_Giorgetti"
+    "title" : "Advanced Web Application Monitoring with Application Insights",
+    "authorName" : "Davide",
+    "authorLastName" : "Benvegnù",
+    "authorTwitter" : "@davidebenvegnu"
 },
 {
     "_id" : "55952eab9733873dbc46b774",
@@ -305,13 +404,31 @@
     "authorTwitter" : "@rhwy"
 },
 {
-    "_id" : "55952eab9733873dbc46b735",
+    "_id" : "55952eab9733873dbc46b752",
+    "averageVote" : 7.0,
+    "count" : 3,
+    "title" : "Lightning Components: A JavaScript Component Framework for Enterprise Multi Tenant Architecture",
+    "authorName" : "Peter",
+    "authorLastName" : "Chittum",
+    "authorTwitter" : "@pchittum"
+},
+{
+    "_id" : "55952eab9733873dbc46b758",
     "averageVote" : 7.0,
     "count" : 4,
-    "title" : "Explain with examples, without writing any",
-    "authorName" : "Gleb",
-    "authorLastName" : "Bahmutov",
-    "authorTwitter" : "@bahmutov"
+    "title" : "Code with Visual Studio Online (codename Monaco",
+    "authorName" : "Kris",
+    "authorLastName" : "van der Mast",
+    "authorTwitter" : "@KvdM"
+},
+{
+    "_id" : "55952eab9733873dbc46b769",
+    "averageVote" : 7.0,
+    "count" : 7,
+    "title" : "Claim, Token, Who are you?!",
+    "authorName" : "Anton",
+    "authorLastName" : "Staykov",
+    "authorTwitter" : "@astaykov"
 },
 {
     "_id" : "55952eab9733873dbc46b72d",
@@ -323,128 +440,11 @@
     "authorTwitter" : "@bahmutov"
 },
 {
-    "_id" : "55952eab9733873dbc46b737",
-    "averageVote" : 7.0,
-    "count" : 4,
-    "title" : "Improving Angular application performance",
-    "authorName" : "Gleb",
-    "authorLastName" : "Bahmutov",
-    "authorTwitter" : "@bahmutov"
-},
-{
     "_id" : "55952eab9733873dbc46b739",
     "averageVote" : 7.0,
-    "count" : 4,
+    "count" : 5,
     "title" : "Metascript: Beyond Javascript Limitations",
     "authorName" : "Massimiliano",
     "authorLastName" : "Mantione",
     "authorTwitter" : "@M_a_s_s_1"
-},
-{
-    "_id" : "55952eab9733873dbc46b74f",
-    "averageVote" : 7.0,
-    "count" : 3,
-    "title" : "Extending RWD with Lightweight Client-side Device Detection",
-    "authorName" : "Dino",
-    "authorLastName" : "Esposito",
-    "authorTwitter" : "@despos"
-},
-{
-    "_id" : "55952eab9733873dbc46b75a",
-    "averageVote" : 6.75,
-    "count" : 4,
-    "title" : "I have inherited a large, complex, messy, sh*tty CSS codebase. And now?",
-    "authorName" : "Cristiano",
-    "authorLastName" : "Rastelli",
-    "authorTwitter" : "@areaweb"
-},
-{
-    "_id" : "55952eab9733873dbc46b747",
-    "averageVote" : 6.75,
-    "count" : 4,
-    "title" : "Putting The CD In The CI With The GIT , The ALM And Other Acronyms That Don’t Make Sense When Putting Them All In One Phrase",
-    "authorName" : "Mike",
-    "authorLastName" : "Martin",
-    "authorTwitter" : "@techmike2kx"
-},
-{
-    "_id" : "55952eab9733873dbc46b770",
-    "averageVote" : 6.714285714285714,
-    "count" : 7,
-    "title" : "Advanced Web Application Monitoring with Application Insights",
-    "authorName" : "Davide",
-    "authorLastName" : "Benvegnù",
-    "authorTwitter" : "@davidebenvegnu"
-},
-{
-    "_id" : "55952eab9733873dbc46b761",
-    "averageVote" : 6.666666666666667,
-    "count" : 3,
-    "title" : "Introduction to hybrid mobile apps with the Ionic Framework",
-    "authorName" : "Kuba",
-    "authorLastName" : "Walinski",
-    "authorTwitter" : "@kubawalinski"
-},
-{
-    "_id" : "55952eab9733873dbc46b76b",
-    "averageVote" : 6.666666666666667,
-    "count" : 3,
-    "title" : "And you can do this with ADAL?",
-    "authorName" : "Anton",
-    "authorLastName" : "Staykov",
-    "authorTwitter" : "@astaykov"
-},
-{
-    "_id" : "55952eab9733873dbc46b73f",
-    "averageVote" : 6.666666666666667,
-    "count" : 6,
-    "title" : "Build modern JavaScript web applications",
-    "authorName" : "Roberto",
-    "authorLastName" : "Messora",
-    "authorTwitter" : "@robymes"
-},
-{
-    "_id" : "55952eab9733873dbc46b73c",
-    "averageVote" : 6.555555555555555,
-    "count" : 9,
-    "title" : "Meet the new kid on the block - Microsoft's new ASP.NET is going to rock your world",
-    "authorName" : "Christos",
-    "authorLastName" : "Matskas",
-    "authorTwitter" : "@christosmatskas"
-},
-{
-    "_id" : "55952eab9733873dbc46b752",
-    "averageVote" : 6.5,
-    "count" : 2,
-    "title" : "Lightning Components: A JavaScript Component Framework for Enterprise Multi Tenant Architecture",
-    "authorName" : "Peter",
-    "authorLastName" : "Chittum",
-    "authorTwitter" : "@pchittum"
-},
-{
-    "_id" : "55952eab9733873dbc46b758",
-    "averageVote" : 6.333333333333333,
-    "count" : 3,
-    "title" : "Code with Visual Studio Online (codename Monaco",
-    "authorName" : "Kris",
-    "authorLastName" : "van der Mast",
-    "authorTwitter" : "@KvdM"
-},
-{
-    "_id" : "55952eab9733873dbc46b754",
-    "averageVote" : 6.333333333333333,
-    "count" : 3,
-    "title" : "Azure App Service",
-    "authorName" : "Kris",
-    "authorLastName" : "van der Mast",
-    "authorTwitter" : "@KvdM"
-},
-{
-    "_id" : "55952eab9733873dbc46b731",
-    "averageVote" : 6.333333333333333,
-    "count" : 3,
-    "title" : "Journey from procedural to reactive JavaScript with stops",
-    "authorName" : "Gleb",
-    "authorLastName" : "Bahmutov",
-    "authorTwitter" : "@bahmutov"
 }]

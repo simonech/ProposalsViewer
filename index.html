@@ -11,6 +11,11 @@
 
 <body ng-controller="ProposalsCtrl">
 
+  <select ng-model="filterTag.tracks" >
+    <option value="">-- choose track --</option>
+    <option ng-repeat="track in tracks | orderBy:track[0]" value="{{track[0]}}">{{track[0]}} - {{track[1]}}</option>
+  </select>
+
 <select ng-model="filterTag.tags" >
   <option value="">-- choose tag --</option>
   <option ng-repeat="tag in tags | orderBy:tag[0]" value="{{tag[0]}}">{{tag[0]}} - {{tag[1]}}</option>
@@ -29,7 +34,7 @@
 
   <ol>
     <li ng-repeat="proposal in proposals | filter: filterTag: strict | orderBy: sort ">
-      <h3>{{proposal.title}} - {{proposal.averageVote | number: 2 }} ({{proposal.count}})</h3>
+      <h3>{{proposal.title}} - {{proposal.averageVote | number: 2 }} ({{proposal.count}}) - <span ng-repeat="track in proposal.tracks"> {{track}}, </span></h3>
       <p>{{proposal.description}}</p>
       <p>{{proposal.author.firstname}} {{proposal.author.lastname}}</p>
       <p><span ng-repeat="tag in proposal.tags"> {{tag}}, </span></p>

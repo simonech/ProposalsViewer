@@ -22,11 +22,11 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http,$q) {
 
     var authors = [];
     $scope.proposals.forEach(function(obj){
-        var matchingAuthor = $filter('filter')(authors, function(value, index){return value[0].lastname==obj.author.lastname}, true);
+        var matchingAuthor = $filter('filter')(authors, function(value, index){return value.author.lastname==obj.author.lastname}, true);
         if(matchingAuthor.length==0)
-            authors.push([obj.author,1]);
+            authors.push({author:obj.author,count:1});
         else
-            matchingAuthor[0][1]++;
+            matchingAuthor[0].count++;
     });
 
     $scope.authors = authors;
@@ -34,11 +34,11 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http,$q) {
     var tags = [];
     $scope.proposals.forEach(function(obj){
         obj.tags.forEach(function (innerObj){
-            var matchingTag = $filter('filter')(tags, function(value, index){return value[0].toUpperCase()==innerObj.toUpperCase()  }, true);
+            var matchingTag = $filter('filter')(tags, function(value, index){return value.name.toUpperCase()==innerObj.toUpperCase()  }, true);
             if(matchingTag.length==0)
-                tags.push([innerObj.toUpperCase(),1]);
+                tags.push({name:innerObj.toUpperCase(),count:1});
             else
-                matchingTag[0][1]++;
+                matchingTag[0].count++;
         })
     });
     $scope.tags = tags;
@@ -47,11 +47,11 @@ phonecatApp.controller('ProposalsCtrl', function ($scope, $filter, $http,$q) {
     $scope.proposals.forEach(function(obj){
         if(obj.tracks){
           obj.tracks.forEach(function (innerObj){
-              var matchingTrack = $filter('filter')(tracks, function(value, index){return value[0]==innerObj }, true);
+              var matchingTrack = $filter('filter')(tracks, function(value, index){return value.name==innerObj }, true);
               if(matchingTrack.length==0)
-                  tracks.push([innerObj,1]);
+                  tracks.push({name:innerObj,count:1});
               else
-                  matchingTrack[0][1]++;
+                  matchingTrack[0].count++;
           })
         }
     });

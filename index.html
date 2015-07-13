@@ -13,17 +13,17 @@
 
   <select ng-model="filterTag.tracks" >
     <option value="">-- choose track --</option>
-    <option ng-repeat="track in tracks | orderBy:track[0]" value="{{track[0]}}">{{track[0]}} - {{track[1]}}</option>
+    <option ng-repeat="track in tracks | orderBy:'name'" value="{{track.name}}">{{track.name}} - {{track.count}}</option>
   </select>
 
 <select ng-model="filterTag.tags" >
   <option value="">-- choose tag --</option>
-  <option ng-repeat="tag in tags | orderBy:tag[0]" value="{{tag[0]}}">{{tag[0]}} - {{tag[1]}}</option>
+  <option ng-repeat="tag in tags | orderBy:'name'" value="{{tag.name}}">{{tag.name}} - {{tag.count}}</option>
 </select>
 
 <select ng-model="filterTag.author.lastname" >
   <option value="">-- choose author --</option>
-  <option ng-repeat="author in authors| orderBy:author[0].lastname" value="{{author[0].lastname}}">{{author[0].firstname}} {{author[0].lastname}} - {{author[1]}}</option>
+  <option ng-repeat="author in authors| orderBy:'author.firstname'" value="{{author.author.lastname}}">{{author.author.firstname}} {{author.author.lastname}} - {{author.count}}</option>
 </select>
 
 <select ng-model="sort" >
